@@ -130,6 +130,18 @@ h2 {
     padding: 1.4rem;
     border-bottom: 1px solid #e7e7e7;
     background-color: #f7f7f7; }
+    .bottom .add__btn {
+      font-size: 3rem;
+      background: none;
+      border: none;
+      color: #3cc47c;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1.1rem;
+      margin-left: 1rem; }
+      .bottom .add__btn :active {
+        transform: translateY(0.2rem); }
     .bottom .add__type {
       width: 4.5rem;
       border: 1px solid #e7e7e7;
@@ -169,18 +181,6 @@ h2 {
       .bottom .add__value :focus {
         outline: none;
         border: 1px solid #2da9da; }
-    .bottom .add__btn {
-      font-size: 3.5rem;
-      background: none;
-      border: none;
-      color: #3cc47c;
-      cursor: pointer;
-      display: inline-block;
-      vertical-align: middle;
-      line-height: 1.1rem;
-      margin-left: 1rem; }
-      .bottom .add__btn :active {
-        transform: translateY(0.2rem); }
 
 .container {
   display: grid;
