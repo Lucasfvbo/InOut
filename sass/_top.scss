@@ -1,0 +1,87 @@
+// TOP
+
+.top {
+    display: grid;
+
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba($color-primary, .5)), url(../back.jpg);
+    background-size: cover;
+}
+
+.budget {
+    display: grid;
+    grid-template-rows: repeat(4, min-content);
+
+    color: #fff;
+    justify-self: center;
+
+        &__title {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-top: 1rem;
+            font-weight: 300;
+        }
+
+        &__value {
+            font-weight: 300;
+            font-size: 5rem;
+            text-align: center;
+            margin-bottom: 2.5rem;
+            letter-spacing: .2rem;
+        }
+
+        &__income {
+            padding: 1.2rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            background-color: $color-blue-primary;
+
+                &--text {
+                    float: left;
+                    font-size: 1.5rem;
+                    color: #444;
+                }
+
+                &--value {
+                    font-size: 1.4rem;
+                    letter-spacing: .1rem;
+                    float: left;
+                }
+
+                &--percentage {
+                    float: left;
+                    width: 4rem;
+                    font-size: 1rem;
+                    padding: .3rem 0;
+                    margin-left: 1rem;
+                }
+        }
+
+        &__expenses {
+            padding: 1.2rem;
+            text-transform: uppercase;
+            background-color: $color-red-primary;
+
+                &--text {
+                    float: left;
+                    font-size: 1.5rem;
+                    color: #444;
+                }
+
+                &--value {
+                    font-size: 1.4rem;
+                    letter-spacing: .1rem;
+                    float: left;
+                }
+
+                &--percentage {
+                    float: left;
+                    width: 4rem;
+                    font-size: 1rem;
+                    padding: .3rem 0;
+                    margin-left: 1rem;
+                    background-color: rgba(255, 255, 255, .2);
+                    text-align: center;
+                    border-radius: .3rem;
+                }
+        }
+}
